@@ -2,13 +2,14 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <! FAVICON !>
+    
+    <!-- FAVICON  -->
     <link
       rel="shortcut icon"
       href="images/icons8-coffee-beans-50.png"
       type="image/x-icon"
     />
-    <! REMIX ICON !>
+    <!-- REMIX ICON  -->
     <link
       href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
       rel="stylesheet"
@@ -18,23 +19,23 @@
     <title>Responsive Coffee Website</title>
   </head>
   <body>
-    <! HEADER !>
+    <!-- HEADER  -->
     <header class="header" id="header">
       <nav class="nav container">
         <a href="#" class="nav__logo">
-          <i class="ri-cup-line nav__logo-icon"></i> Coffee
+          <i class="ri-cup-line nav__logo-icon"></i> CoffeeCat
         </a>
 
         <div class="nav__menu" id="nav-menu">
           <ul class="nav__list">
             <li class="nav__item">
-              <a href="#home" class="nav__link">Home</a>
+              <a href="#home" class="nav__link active-link">Home</a>
             </li>
             <li class="nav__item">
-              <a href="#about" class="nav__link">About</a>
+              <a href="#about" class="nav__link">Our Story</a>
             </li>
             <li class="nav__item">
-              <a href="#products" class="nav__link">Products</a>
+              <a href="#products" class="nav__link">Drinks/Beans</a>
             </li>
             <li class="nav__item">
               <a href="#faqs" class="nav__link">FAQs</a>
@@ -47,6 +48,11 @@
             <i class="ri-close-line"></i>
           </div>
         </div>
+
+        <div class="nav__btns">
+          <!-- Theme change button -->
+          <i class="ri-moon-line change-theme" id="theme-"></i>
+        </div>
         <div class="nav__toggle" id="nav-toggle">
           <i class="ri-menu-line"></i>
         </div>
@@ -54,7 +60,7 @@
     </header>
 
     <main class="main">
-      <! HOME !>
+      <!-- HOME  -->
       <section class="home" id="home">
         <div class="home__container container grid">
           <img
@@ -65,15 +71,14 @@
 
           <div class="home__data">
             <h1 class="home__title">
-              Coffee will make <br />
-              your life better.
+              Locally sourced Coffee. 
             </h1>
             <p class="home__description">
-              Pick your favorite coffee flavors from <br />
-              our fresh beans from all over the world.
+              Pick your favorite coffee flavor from <br />
+              our wide variety of options.
             </p>
             <a href="about" class="button button--flex">
-              Explore <i class="ri-arrow-right-down-line button__icon"></i>
+              Learn More <i class="ri-arrow-right-down-line button__icon"></i>
             </a>
           </div>
           <div class="home__social">
@@ -102,7 +107,7 @@
         </div>
       </section>
 
-      <! ABOUT !>
+      <!-- ABOUT  -->
       <section class="about section container" id="about">
         <div class="about__container grid">
           <img
@@ -112,26 +117,26 @@
           />
           <div class="about__data">
             <h2 class="section__title about__title">
-              Who we really are & <br />
-              why choose us.
+              Who we really are & why <br>
+               you should choose us.
             </h2>
-            <p class="about__description">Hello insert something here.</p>
+            <p class="about__description">We are rated 5 stars on our site and <br> have  over 2,000 unbiased reviews!</p>
             <div class="about__details">
               <p class="about__details-description">
                 <i class="ri-checkbox-fill about_details-icon"></i>
-                We always deliver on time.
+                Coffee grounded fresh daily.
               </p>
               <p class="about__details-description">
                 <i class="ri-checkbox-fill about_details-icon"></i>
-                We always deliver on time.
+                We get our coffee beans from the Bay Area.
               </p>
               <p class="about__details-description">
                 <i class="ri-checkbox-fill about_details-icon"></i>
-                We always deliver on time.
+                All utensils are biodegradable.
               </p>
               <p class="about__details-description">
                 <i class="ri-checkbox-fill about_details-icon"></i>
-                100% money back guaranteed.
+                Customer satisfaction guaranteed.
               </p>
             </div>
             <a href="#" class="button--link button--flex"
@@ -141,17 +146,17 @@
         </div>
       </section>
 
-      <! Steps !>
+      <!-- Steps  -->
       <section class="steps section container">
         <div class="steps__bg">
           <h2 class="section__title-center steps__title">
-            Steps to start your plan off right.
+            Steps to start your day off right.
           </h2>
 
           <div class="steps__container grid">
             <div class="steps__card">
               <div class="steps__card-number">01</div>
-              <h3 class="steps__card-title">Choose coffee</h3>
+              <h3 class="steps__card-title">Choose coffee.</h3>
               <p class="steps__card-description">
                 We have several flavors to choose from.
               </p>
@@ -161,33 +166,33 @@
               <div class="steps__card-number">02</div>
               <h3 class="steps__card-title">Place an order.</h3>
               <p class="steps__card-description">
-                Once order is set, you're done.
+                Once the order is set, you're done.
               </p>
             </div>
 
             <div class="steps__card">
               <div class="steps__card-number">03</div>
-              <h3 class="steps__card-title">Get coffee delivered</h3>
-              <p class="steps__card-description">Delivery process is easy</p>
+              <h3 class="steps__card-title">Get coffee delivered.</h3>
+              <p class="steps__card-description">Delivery process is easy.<br> You can get ground or brewed coffee.</p>
             </div>
           </div>
         </div>
       </section>
 
-      <! Products !>
+      <!-- Products  -->
 
       <section class="product section container" id="products">
       <h2 class="section__title-center">
-        Check out our <br> products!
+        Check out our drinks!
       </h2>
-      <p class="product__description">Hello</p>
+      <p class="product__description">Here are some of our customer's top picks.</p>
       
       <div class="product__container grid"> 
         <article class="product__card">
         
             <img src="images/prod1.png" alt="" class="product__img">
             <h3 class="product__title">Latte</h3>
-            <span class="product__price">$45</span>
+            <span class="product__price">$12</span>
             <button class="button--flex product__button">
               <i class="ri-shopping-bag-line"></i>
             </button>
@@ -197,7 +202,7 @@
     
             <img src="images/prod2.png" alt="" class="product__img">
             <h3 class="product__title">Mocha</h3>
-            <span class="product__price">$45</span>
+            <span class="product__price">$12</span>
             <button class="button--flex product__button">
               <i class="ri-shopping-bag-line"></i>
             </button>
@@ -207,7 +212,7 @@
          
             <img src="images/prod3.png" alt="" class="product__img">
             <h3 class="product__title">Lavender Tea</h3>
-            <span class="product__price">$45</span>
+            <span class="product__price">$10</span>
             <button class="button--flex product__button">
               <i class="ri-shopping-bag-line"></i>
             </button>
@@ -217,7 +222,7 @@
      
             <img src="images/prod4.png" alt="" class="product__img">
             <h3 class="product__title">Chai</h3>
-            <span class="product__price">$45</span>
+            <span class="product__price">$12</span>
             <button class="button--flex product__button">
               <i class="ri-shopping-bag-line"></i>
             </button>
@@ -227,7 +232,7 @@
         
             <img src="images/prod5.png" alt="" class="product__img">
             <h3 class="product__title">Black Tea</h3>
-            <span class="product__price">$45</span>
+            <span class="product__price">$10</span>
             <button class="button--flex product__button">
               <i class="ri-shopping-bag-line"></i>
             </button>
@@ -237,7 +242,7 @@
          
             <img src="images/prod6.PNG" alt="" class="product__img">
             <h3 class="product__title">Cappuccino</h3>
-            <span class="product__price">$45</span>
+            <span class="product__price">$12</span>
             <button class="button--flex product__button">
               <i class="ri-shopping-bag-line"></i>
             </button>
@@ -248,10 +253,10 @@
     
     
     
-    <! Questions !>
+     <!-- Questions  -->
     <section class="questions section" id="faqs">
       <h2 class="section__title-center question__title container">
-        Some common questions we have
+        Commonly asked questions.
       </h2>
 
       <div class="questions__container container grid">
@@ -261,13 +266,13 @@
             <header class="questions__header">
               <i class="ri-add-line questions__icon"></i>
               <h3 class="questions__item-title">
-                My coffee has which type of milk?
+                What are my milk options?
               </h3>
             </header>
 
             <div class="questions__content">
               <p class="questions__description">
-                Hello this is a question
+                Oat, Soy, Almond, Cashew, Cow, Goat.
               </p>
             </div>
           </div>
@@ -275,13 +280,13 @@
             <header class="questions__header">
               <i class="ri-add-line questions__icon"></i>
               <h3 class="questions__item-title">
-                My coffee has which type of milk?
+                How can I notify you of my allergies?
               </h3>
             </header>
 
             <div class="questions__content">
               <p class="questions__description">
-                Hello this is a question
+                Include it in the order form under "allergies" section.
               </p>
             </div>
           </div>
@@ -289,13 +294,13 @@
             <header class="questions__header">
               <i class="ri-add-line questions__icon"></i>
               <h3 class="questions__item-title">
-                My coffee has which type of milk?
+                How much mg of caffeine is in my order?
               </h3>
             </header>
 
             <div class="questions__content">
               <p class="questions__description">
-                Hello this is a question
+                Varies by order, ranges from 47mg - 70mg.
               </p>
             </div>
           </div>
@@ -305,13 +310,13 @@
             <header class="questions__header">
               <i class="ri-add-line questions__icon"></i>
               <h3 class="questions__item-title">
-                My coffee has which type of milk?
+                Will my coffee stay hot/cold during delivery?
               </h3>
             </header>
 
             <div class="questions__content">
               <p class="questions__description">
-                Hello this is a question
+                Yes, all drinks/beans are delivered via insulated container.
               </p>
             </div>
           </div>
@@ -319,51 +324,71 @@
             <header class="questions__header">
               <i class="ri-add-line questions__icon"></i>
               <h3 class="questions__item-title">
-                My coffee has which type of milk?
+                How do I report a complaint?
               </h3>
             </header>
 
             <div class="questions__content">
               <p class="questions__description">
-                Hello this is a question
+                Under the contact us section.
               </p>
             </div>
           </div>
-          <div class="questions__item">
-            <header class="questions__header">
-              <i class="ri-add-line questions__icon"></i>
-              <h3 class="questions__item-title">
-                My coffee has which type of milk?
-              </h3>
-            </header>
-
-            <div class="questions__content">
-              <p class="questions__description">
-                Hello this is a question
-              </p>
-            </div>
           </div>
         </div>
       </div>
       
     </section>
 
-    <! Contact !>
+    <!-- Contact  -->
     <section class="contact section container" id="contact">
       <div class="contact__container grid">
         <div class="contact__box">
           <h2 class="section__title">
-            Reach out to us today <br> for anything.
+            Contact us.
           </h2>
 
           <div class="contact__data">
             <div class="contact__information">
               <h3 class="contact__subtitle">
-                Call us for instant support.
+                Call us if you have questions.
               </h3>
+              <span class="contact__description">
+                <i class="ri-phone-line contact__icon"></i>
+                +123 244 2423
+              </span>
+            </div>
+            <div class="contact__information">
+              <h3 class="contact__subtitle">
+                Email us.
+              </h3>
+              <span class="contact__description">
+                <i class="ri-mail-line contact__icon"></i>
+                user@email.com
+              </span>
             </div>
           </div>
-
+      <form action="" class="contact__form">
+        <div class="contact__inputs">
+          <div class="contact__content">
+            <input type="email" placeholder="" class="contact__input">
+            <label for="" class="contact__label">Email</label>
+          </div>
+          <div class="contact__content">
+            <input type="text" placeholder="" class="contact__input">
+            <label for="" class="contact__label">Subject</label>
+          </div>
+          <div class="contact__content">
+           <textarea name="message" placeholder="" class="contact__input"></textarea>
+            
+            <label for="" class="contact__label">Message</label>
+          </div>
+        </div>
+        <button class="button button--flex">
+          Send Message
+          <i class="ri-arrow-right-up-line button__icon"></i>
+        </button>
+      </form>
         </div>
       </div>
     </section>
@@ -372,9 +397,77 @@
 
     <script src="main.js"></script>
 
-    <! FOOTER !>
-    <footer class="footer section"></footer>
+    <!-- FOOTER  -->
 
-    <! SCROLL UP !>
-  </body>
-</html>
+<footer class="footer section">
+  <div class="footer__container container grid">
+      <div class="footer__content">
+          <a href="#" class="footer__logo">
+              <i class="ri-cup-line nav__logo-icon"></i> CoffeeCat
+          </a>
+
+          <h3 class="footer__title">
+              Subscribe for discounts!
+          </h3>
+
+          <div class="footer__subscribe">
+              <input type="email" placeholder="Enter email" class="footer__input">
+
+              <button class="button button--flex footer__button">
+                  Subscribe
+                  <i class="ri-arrow-right-up-line button__icon"></i>
+              </button>
+          </div>
+      </div>
+
+      <div class="footer__content">
+          <h3 class="footer__title">Our Address</h3>
+
+          <ul class="footer__data">
+              <li class="footer__information">1234 Street</li>
+              <li class="footer__information"> San Francisco, CA</li>
+          </ul>
+      </div>
+
+      <div class="footer__content">
+          <h3 class="footer__title">Contact Us</h3>
+
+          <ul class="footer__data">
+              <li class="footer__information">+123 456 789</li>
+              
+              <div class="footer__social">
+                  <a href="https://www.facebook.com/" class="footer__social-link">
+                      <i class="ri-facebook-fill"></i>
+                  </a>
+                  <a href="https://www.instagram.com/" class="footer__social-link">
+                      <i class="ri-instagram-line"></i>
+                  </a>
+                  <a href="https://twitter.com/" class="footer__social-link">
+                      <i class="ri-twitter-fill"></i>
+                  </a>
+              </div>
+          </ul>
+      </div>
+
+      <div class="footer__content">
+          <h3 class="footer__title">
+              We accept all Cards, and Venmo.
+          </h3>
+
+          <div class="footer__cards">
+              <img src="images/icons8-american-express-48.png" alt="" class="footer__card">
+              <img src="images/icons8-mastercard-48.png" alt="" class="footer__card">
+              <img src="images/icons8-visa-48.png" alt="" class="footer__card">
+              <img src="images/icons8-venmo-40.png" alt="" class="footer__card">
+          </div>
+      </div>
+  </div>
+
+  <p class="footer__copy">&#169; Nisa Farhana. All rights reserved</p>
+</footer>
+
+
+    <!-- SCROLL UP  -->
+  <a href="#" class="scrollup" id="scroll-up">
+    <i class="ri-arrow-up-fill scrollup__icon"></i>
+  </a>
